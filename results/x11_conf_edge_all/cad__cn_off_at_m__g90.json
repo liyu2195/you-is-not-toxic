@@ -1,0 +1,373 @@
+{
+ "pop": "cad",
+ "args": {
+  "pop": "cad",
+  "out": "/opt/x71_conf_edge_ref/out/cad__cn_off_at_m.json",
+  "labelers": "cn_off@m",
+  "reps": 500,
+  "seed": 7100,
+  "item_budgets": "250,500,1000,2000,4000,8000",
+  "edge_budgets": "500,1000,2000,4000,8000,16000",
+  "item_designs": "srs,ppi,dstrat,flagprop,upgrade,upgrade_lw",
+  "edge_designs": "upgrade_lw,ppi,srs",
+  "procs": 1,
+  "regimes": "edge",
+  "edge_fill": true,
+  "pops_dir": "x11_pops",
+  "aux": "detoxify_original@m,imsypp@m,detoxify_unbiased@m",
+  "score_onesided": true
+ },
+ "results": [
+  {
+   "labeler": "cn_off@m",
+   "item": {},
+   "edge": {
+    "500": {
+     "upgrade_lw": {
+      "log_rr": {
+       "coverage": 0.942,
+       "width": 1.128943584114802,
+       "undefined": 0.0,
+       "bias": 0.07595418033947432,
+       "rmse": 0.6988118014047096,
+       "detect": 0.3
+      },
+      "log_placebo_rr": {
+       "coverage": 0.986,
+       "width": 1.5675709346270637,
+       "undefined": 0.0,
+       "bias": 0.04273370032848778,
+       "rmse": 0.429643749354457
+      },
+      "_labels": 499.484
+     },
+     "ppi": {
+      "log_rr": {
+       "coverage": 0.956,
+       "width": 1.1140634103412852,
+       "undefined": 0.0,
+       "bias": 0.10303416831257639,
+       "rmse": 0.6833380654752903,
+       "detect": 0.304
+      },
+      "log_placebo_rr": {
+       "coverage": 0.962,
+       "width": 2.075633922681843,
+       "undefined": 0.0,
+       "bias": 0.034330482663949446,
+       "rmse": 0.8498619636708105
+      },
+      "_labels": 499.538
+     },
+     "srs": {
+      "log_rr": {
+       "coverage": 0.94,
+       "width": 1.1249339638027176,
+       "undefined": 0.0,
+       "bias": 0.10926282818358812,
+       "rmse": 0.708797387726911,
+       "detect": 0.292
+      },
+      "log_placebo_rr": {
+       "coverage": 0.94,
+       "width": 2.0252820292077045,
+       "undefined": 0.0,
+       "bias": 0.19736654464416015,
+       "rmse": 0.9664327427367758
+      },
+      "_labels": 499.51
+     }
+    },
+    "1000": {
+     "upgrade_lw": {
+      "log_rr": {
+       "coverage": 0.944,
+       "width": 0.7821043423241263,
+       "undefined": 0.0,
+       "bias": 0.025734545041568246,
+       "rmse": 0.4758073685327038,
+       "detect": 0.474
+      },
+      "log_placebo_rr": {
+       "coverage": 0.96,
+       "width": 0.6341562759812043,
+       "undefined": 0.0,
+       "bias": 0.02371141777572383,
+       "rmse": 0.2726308665600297
+      },
+      "_labels": 999.508
+     },
+     "ppi": {
+      "log_rr": {
+       "coverage": 0.958,
+       "width": 0.767280433985472,
+       "undefined": 0.0,
+       "bias": 0.0365567151905668,
+       "rmse": 0.44720591317714925,
+       "detect": 0.514
+      },
+      "log_placebo_rr": {
+       "coverage": 0.95,
+       "width": 1.4234677741600927,
+       "undefined": 0.0,
+       "bias": 0.017699470562848152,
+       "rmse": 0.5755439749729273
+      },
+      "_labels": 999.556
+     },
+     "srs": {
+      "log_rr": {
+       "coverage": 0.93,
+       "width": 0.7699443556347145,
+       "undefined": 0.0,
+       "bias": 0.0612167971762787,
+       "rmse": 0.48664445495190567,
+       "detect": 0.526
+      },
+      "log_placebo_rr": {
+       "coverage": 0.956,
+       "width": 1.4587644990327062,
+       "undefined": 0.0,
+       "bias": -0.012118476751893148,
+       "rmse": 0.6008364606550007
+      },
+      "_labels": 999.548
+     }
+    },
+    "2000": {
+     "upgrade_lw": {
+      "log_rr": {
+       "coverage": 0.952,
+       "width": 0.5320236801922636,
+       "undefined": 0.0,
+       "bias": 0.03791409544668323,
+       "rmse": 0.3115721190284161,
+       "detect": 0.826
+      },
+      "log_placebo_rr": {
+       "coverage": 0.95,
+       "width": 0.4155494783425839,
+       "undefined": 0.0,
+       "bias": 0.004719847753659412,
+       "rmse": 0.1739736815796337
+      },
+      "_labels": 1999.496
+     },
+     "ppi": {
+      "log_rr": {
+       "coverage": 0.942,
+       "width": 0.5193337152885392,
+       "undefined": 0.0,
+       "bias": 0.027296349091507466,
+       "rmse": 0.30373578884672203,
+       "detect": 0.836
+      },
+      "log_placebo_rr": {
+       "coverage": 0.948,
+       "width": 0.9647754620081588,
+       "undefined": 0.0,
+       "bias": -0.005267294649217602,
+       "rmse": 0.4093327630810162
+      },
+      "_labels": 1999.538
+     },
+     "srs": {
+      "log_rr": {
+       "coverage": 0.944,
+       "width": 0.5275968414693218,
+       "undefined": 0.0,
+       "bias": 0.0024798583459251233,
+       "rmse": 0.31163114762565464,
+       "detect": 0.784
+      },
+      "log_placebo_rr": {
+       "coverage": 0.972,
+       "width": 0.9899804763254196,
+       "undefined": 0.0,
+       "bias": -0.01383133738897313,
+       "rmse": 0.3919284933012971
+      },
+      "_labels": 1999.558
+     }
+    },
+    "4000": {
+     "upgrade_lw": {
+      "log_rr": {
+       "coverage": 0.958,
+       "width": 0.3527480563468513,
+       "undefined": 0.0,
+       "bias": 0.024319348766273396,
+       "rmse": 0.20760082591645057,
+       "detect": 0.976
+      },
+      "log_placebo_rr": {
+       "coverage": 0.96,
+       "width": 0.260607168041649,
+       "undefined": 0.0,
+       "bias": -0.002338373301572494,
+       "rmse": 0.10306116263696306
+      },
+      "_labels": 3999.606
+     },
+     "ppi": {
+      "log_rr": {
+       "coverage": 0.962,
+       "width": 0.3474792566144498,
+       "undefined": 0.0,
+       "bias": -0.002137977618615672,
+       "rmse": 0.19634343153851488,
+       "detect": 0.994
+      },
+      "log_placebo_rr": {
+       "coverage": 0.958,
+       "width": 0.6272242864084958,
+       "undefined": 0.0,
+       "bias": 0.0015090070684327106,
+       "rmse": 0.26988856727057164
+      },
+      "_labels": 3999.648
+     },
+     "srs": {
+      "log_rr": {
+       "coverage": 0.956,
+       "width": 0.3499432901233171,
+       "undefined": 0.0,
+       "bias": 0.01903507241709601,
+       "rmse": 0.2067839008705085,
+       "detect": 0.99
+      },
+      "log_placebo_rr": {
+       "coverage": 0.948,
+       "width": 0.6445916081773522,
+       "undefined": 0.0,
+       "bias": 0.008530346902535513,
+       "rmse": 0.266870006462217
+      },
+      "_labels": 3999.614
+     }
+    },
+    "8000": {
+     "upgrade_lw": {
+      "log_rr": {
+       "coverage": 0.964,
+       "width": 0.2188198358581602,
+       "undefined": 0.0,
+       "bias": 0.011377473750805223,
+       "rmse": 0.12450026435604367,
+       "detect": 1.0
+      },
+      "log_placebo_rr": {
+       "coverage": 0.936,
+       "width": 0.13159212969874334,
+       "undefined": 0.0,
+       "bias": 0.0008214475194550097,
+       "rmse": 0.05870245913863759
+      },
+      "_labels": 7999.704
+     },
+     "ppi": {
+      "log_rr": {
+       "coverage": 0.962,
+       "width": 0.2179355524237234,
+       "undefined": 0.0,
+       "bias": 0.0060209142222373835,
+       "rmse": 0.12834447203811708,
+       "detect": 1.0
+      },
+      "log_placebo_rr": {
+       "coverage": 0.962,
+       "width": 0.393162120610205,
+       "undefined": 0.0,
+       "bias": -0.010988784307836452,
+       "rmse": 0.16424539032482838
+      },
+      "_labels": 7999.692
+     },
+     "srs": {
+      "log_rr": {
+       "coverage": 0.956,
+       "width": 0.21931395942365703,
+       "undefined": 0.0,
+       "bias": 0.0037870158908210882,
+       "rmse": 0.12315722994316579,
+       "detect": 1.0
+      },
+      "log_placebo_rr": {
+       "coverage": 0.952,
+       "width": 0.40498430882435077,
+       "undefined": 0.0,
+       "bias": -0.012522590706256498,
+       "rmse": 0.17059804069272638
+      },
+      "_labels": 7999.694
+     }
+    },
+    "16000": {
+     "upgrade_lw": {
+      "log_rr": {
+       "coverage": 0.946,
+       "width": 0.10539667184564244,
+       "undefined": 0.0,
+       "bias": 0.002656925999458881,
+       "rmse": 0.0636063227217895,
+       "detect": 1.0
+      },
+      "log_placebo_rr": {
+       "coverage": 0.936,
+       "width": 0.0447892242659656,
+       "undefined": 0.0,
+       "bias": -0.0012406665971629316,
+       "rmse": 0.01985154445924236
+      },
+      "_labels": 15999.84
+     },
+     "ppi": {
+      "log_rr": {
+       "coverage": 0.95,
+       "width": 0.11132087693212601,
+       "undefined": 0.0,
+       "bias": 0.001134669982823855,
+       "rmse": 0.0670632737892569,
+       "detect": 1.0
+      },
+      "log_placebo_rr": {
+       "coverage": 0.944,
+       "width": 0.19924719178095415,
+       "undefined": 0.0,
+       "bias": -0.003889537628825712,
+       "rmse": 0.08558464472131527
+      },
+      "_labels": 15999.842
+     },
+     "srs": {
+      "log_rr": {
+       "coverage": 0.946,
+       "width": 0.1119300601660707,
+       "undefined": 0.0,
+       "bias": 0.0005753033319235712,
+       "rmse": 0.06714418846777925,
+       "detect": 1.0
+      },
+      "log_placebo_rr": {
+       "coverage": 0.956,
+       "width": 0.20531392360451797,
+       "undefined": 0.0,
+       "bias": -0.0041978843880992045,
+       "rmse": 0.08515690942378101
+      },
+      "_labels": 15999.846
+     }
+    }
+   },
+   "truth_edge": {
+    "log_rr": 0.8407003571980365,
+    "log_placebo_rr": 0.5088597284557039,
+    "rr": 2.3179898292884578,
+    "placebo_rr": 1.663393392993734
+   },
+   "labeler_edge": {
+    "rr": 1.5808256022238305
+   }
+  }
+ ]
+}

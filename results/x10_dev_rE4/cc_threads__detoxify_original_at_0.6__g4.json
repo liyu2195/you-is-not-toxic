@@ -1,0 +1,157 @@
+{
+ "pop": "cc_threads",
+ "args": {
+  "pop": "cc_threads",
+  "out": "/opt/x70_dev_rE4/out/cc_threads__detoxify_original_at_0.6__g4.json",
+  "labelers": "detoxify_original@0.6",
+  "reps": 300,
+  "seed": 6100,
+  "item_budgets": "250,500,1000,2000,4000,8000",
+  "edge_budgets": "500,1000,2000,4000,8000,16000",
+  "item_designs": "srs,ppi,dstrat,flagprop,upgrade,upgrade_lw",
+  "edge_designs": "edge_m3_c25_or",
+  "procs": 1,
+  "regimes": "edge",
+  "edge_fill": true,
+  "pops_dir": "x10_pops",
+  "aux": "detoxify_original@m,imsypp@m",
+  "score_onesided": true
+ },
+ "results": [
+  {
+   "labeler": "detoxify_original@0.6",
+   "item": {},
+   "edge": {
+    "500": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9633333333333334,
+       "width": 1.6738904654118436,
+       "undefined": 0.0,
+       "bias": 0.2751443314415778,
+       "rmse": 1.228050743471854,
+       "detect": 0.13
+      },
+      "log_placebo_rr": {
+       "coverage": 1.0,
+       "width": 5.075629054118211,
+       "undefined": 0.0,
+       "bias": 0.8226784902610227,
+       "rmse": 3.7660291135256774
+      },
+      "_labels": 499.9866666666667
+     }
+    },
+    "1000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.94,
+       "width": 1.0989890296012628,
+       "undefined": 0.0,
+       "bias": 0.05451791380970539,
+       "rmse": 0.7362315772871666,
+       "detect": 0.2866666666666667
+      },
+      "log_placebo_rr": {
+       "coverage": 1.0,
+       "width": 3.7200373907914277,
+       "undefined": 0.0,
+       "bias": 0.45599416448660524,
+       "rmse": 1.874620557816232
+      },
+      "_labels": 1000.1
+     }
+    },
+    "2000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9533333333333334,
+       "width": 0.7737025509218741,
+       "undefined": 0.0,
+       "bias": -0.008964189949781431,
+       "rmse": 0.4673456615334774,
+       "detect": 0.4766666666666667
+      },
+      "log_placebo_rr": {
+       "coverage": 1.0,
+       "width": 2.7233816517093596,
+       "undefined": 0.0,
+       "bias": 0.13878700477038475,
+       "rmse": 1.1394710459955735
+      },
+      "_labels": 1999.9333333333334
+     }
+    },
+    "4000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9566666666666667,
+       "width": 0.5485689098315093,
+       "undefined": 0.0,
+       "bias": 0.02581686994227672,
+       "rmse": 0.3421981813821745,
+       "detect": 0.7333333333333333
+      },
+      "log_placebo_rr": {
+       "coverage": 0.9966666666666667,
+       "width": 1.9460991331473747,
+       "undefined": 0.0,
+       "bias": 0.05016183645980643,
+       "rmse": 0.8158243177389357
+      },
+      "_labels": 3999.903333333333
+     }
+    },
+    "8000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9066666666666666,
+       "width": 0.3907917173237733,
+       "undefined": 0.0,
+       "bias": 0.019581381859269165,
+       "rmse": 0.2554345419142164,
+       "detect": 0.9366666666666666
+      },
+      "log_placebo_rr": {
+       "coverage": 0.96,
+       "width": 0.6255409333657237,
+       "undefined": 0.0,
+       "bias": 0.015856228443754006,
+       "rmse": 0.543614179600726
+      },
+      "_labels": 7999.823333333334
+     }
+    },
+    "16000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9466666666666667,
+       "width": 0.2797419930567543,
+       "undefined": 0.0,
+       "bias": -0.0007997227064269197,
+       "rmse": 0.17602068084287834,
+       "detect": 0.9966666666666667
+      },
+      "log_placebo_rr": {
+       "coverage": 0.9333333333333333,
+       "width": 0.29784996518616513,
+       "undefined": 0.0,
+       "bias": 0.050382075759260125,
+       "rmse": 0.31256385763952893
+      },
+      "_labels": 16000.063333333334
+     }
+    }
+   },
+   "truth_edge": {
+    "log_rr": 0.8708200831887911,
+    "log_placebo_rr": 1.3889987766659253,
+    "rr": 2.388869121850111,
+    "placebo_rr": 4.010832303106434
+   },
+   "labeler_edge": {
+    "rr": 3.4384815799235917
+   }
+  }
+ ]
+}

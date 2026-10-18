@@ -1,0 +1,1747 @@
+{
+ "sizes": {
+  "10000": {
+   "n_subsamples": 200,
+   "size_median": 10020.5,
+   "gold_verdicts": {
+    "depth": {
+     "-1": 0.195,
+     "0": 0.805,
+     "1": 0.0
+    },
+    "size": {
+     "-1": 0.0,
+     "0": 0.95,
+     "1": 0.05
+    },
+    "log_rr": {
+     "-1": 0.0,
+     "0": 0.0,
+     "1": 1.0
+    }
+   },
+   "instruments": {
+    "haiku": {
+     "depth": {
+      "differ": 0.7,
+      "reversal": 0.065,
+      "manufactured": 0.505,
+      "lost": 0.13,
+      "ci_excludes_gold": 0.69
+     },
+     "size": {
+      "differ": 0.845,
+      "reversal": 0.0,
+      "manufactured": 0.84,
+      "lost": 0.005,
+      "ci_excludes_gold": 0.845
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.885
+     },
+     "mean_over_laws": 0.515
+    },
+    "haiku_ctx": {
+     "depth": {
+      "differ": 0.98,
+      "reversal": 0.185,
+      "manufactured": 0.785,
+      "lost": 0.01,
+      "ci_excludes_gold": 0.975
+     },
+     "size": {
+      "differ": 0.95,
+      "reversal": 0.0,
+      "manufactured": 0.95,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.6433333333333333
+    },
+    "qwen7b_m": {
+     "depth": {
+      "differ": 0.2,
+      "reversal": 0.0,
+      "manufactured": 0.06,
+      "lost": 0.14,
+      "ci_excludes_gold": 0.105
+     },
+     "size": {
+      "differ": 0.115,
+      "reversal": 0.0,
+      "manufactured": 0.08,
+      "lost": 0.035,
+      "ci_excludes_gold": 0.06
+     },
+     "log_rr": {
+      "differ": 0.035,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.035,
+      "ci_excludes_gold": 0.58
+     },
+     "mean_over_laws": 0.11666666666666665
+    },
+    "qwen7b_m_ctx": {
+     "depth": {
+      "differ": 1.0,
+      "reversal": 0.195,
+      "manufactured": 0.805,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.95,
+      "reversal": 0.0,
+      "manufactured": 0.95,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "log_rr": {
+      "differ": 0.38,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.38,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.7766666666666667
+    },
+    "qwen7b": {
+     "depth": {
+      "differ": 0.305,
+      "reversal": 0.0,
+      "manufactured": 0.205,
+      "lost": 0.1,
+      "ci_excludes_gold": 0.18
+     },
+     "size": {
+      "differ": 0.355,
+      "reversal": 0.0,
+      "manufactured": 0.345,
+      "lost": 0.01,
+      "ci_excludes_gold": 0.315
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.21999999999999997
+    },
+    "detoxify_original@0.6": {
+     "depth": {
+      "differ": 0.165,
+      "reversal": 0.0,
+      "manufactured": 0.055,
+      "lost": 0.11,
+      "ci_excludes_gold": 0.185
+     },
+     "size": {
+      "differ": 0.1,
+      "reversal": 0.0,
+      "manufactured": 0.06,
+      "lost": 0.04,
+      "ci_excludes_gold": 0.08
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.51
+     },
+     "mean_over_laws": 0.08833333333333333
+    },
+    "detoxify_original@m": {
+     "depth": {
+      "differ": 0.16,
+      "reversal": 0.0,
+      "manufactured": 0.02,
+      "lost": 0.14,
+      "ci_excludes_gold": 0.055
+     },
+     "size": {
+      "differ": 0.095,
+      "reversal": 0.0,
+      "manufactured": 0.07,
+      "lost": 0.025,
+      "ci_excludes_gold": 0.035
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.25
+     },
+     "mean_over_laws": 0.085
+    },
+    "detoxify_unbiased@0.6": {
+     "depth": {
+      "differ": 0.135,
+      "reversal": 0.0,
+      "manufactured": 0.085,
+      "lost": 0.05,
+      "ci_excludes_gold": 0.025
+     },
+     "size": {
+      "differ": 0.06,
+      "reversal": 0.0,
+      "manufactured": 0.025,
+      "lost": 0.035,
+      "ci_excludes_gold": 0.01
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.26
+     },
+     "mean_over_laws": 0.065
+    },
+    "detoxify_unbiased@m": {
+     "depth": {
+      "differ": 0.145,
+      "reversal": 0.0,
+      "manufactured": 0.075,
+      "lost": 0.07,
+      "ci_excludes_gold": 0.0
+     },
+     "size": {
+      "differ": 0.06,
+      "reversal": 0.0,
+      "manufactured": 0.03,
+      "lost": 0.03,
+      "ci_excludes_gold": 0.005
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.2
+     },
+     "mean_over_laws": 0.06833333333333333
+    },
+    "imsypp@argmax": {
+     "depth": {
+      "differ": 0.35,
+      "reversal": 0.0,
+      "manufactured": 0.315,
+      "lost": 0.035,
+      "ci_excludes_gold": 0.37
+     },
+     "size": {
+      "differ": 0.08,
+      "reversal": 0.0,
+      "manufactured": 0.05,
+      "lost": 0.03,
+      "ci_excludes_gold": 0.035
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.98
+     },
+     "mean_over_laws": 0.14333333333333334
+    },
+    "imsypp@m": {
+     "depth": {
+      "differ": 0.595,
+      "reversal": 0.0,
+      "manufactured": 0.595,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.59
+     },
+     "size": {
+      "differ": 0.14,
+      "reversal": 0.0,
+      "manufactured": 0.1,
+      "lost": 0.04,
+      "ci_excludes_gold": 0.16
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.11
+     },
+     "mean_over_laws": 0.245
+    },
+    "sn_rob@m": {
+     "depth": {
+      "differ": 0.135,
+      "reversal": 0.0,
+      "manufactured": 0.075,
+      "lost": 0.06,
+      "ci_excludes_gold": 0.01
+     },
+     "size": {
+      "differ": 0.045,
+      "reversal": 0.0,
+      "manufactured": 0.02,
+      "lost": 0.025,
+      "ci_excludes_gold": 0.005
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.265
+     },
+     "mean_over_laws": 0.06
+    },
+    "mh_dist@m": {
+     "depth": {
+      "differ": 0.155,
+      "reversal": 0.0,
+      "manufactured": 0.075,
+      "lost": 0.08,
+      "ci_excludes_gold": 0.01
+     },
+     "size": {
+      "differ": 0.08,
+      "reversal": 0.0,
+      "manufactured": 0.045,
+      "lost": 0.035,
+      "ci_excludes_gold": 0.01
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.44
+     },
+     "mean_over_laws": 0.07833333333333332
+    },
+    "fb_hate@m": {
+     "depth": {
+      "differ": 0.235,
+      "reversal": 0.0,
+      "manufactured": 0.13,
+      "lost": 0.105,
+      "ci_excludes_gold": 0.105
+     },
+     "size": {
+      "differ": 0.12,
+      "reversal": 0.0,
+      "manufactured": 0.07,
+      "lost": 0.05,
+      "ci_excludes_gold": 0.12
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.22
+     },
+     "mean_over_laws": 0.11833333333333333
+    },
+    "cn_off@m": {
+     "depth": {
+      "differ": 0.21,
+      "reversal": 0.0,
+      "manufactured": 0.165,
+      "lost": 0.045,
+      "ci_excludes_gold": 0.07
+     },
+     "size": {
+      "differ": 0.085,
+      "reversal": 0.0,
+      "manufactured": 0.05,
+      "lost": 0.035,
+      "ci_excludes_gold": 0.015
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.385
+     },
+     "mean_over_laws": 0.09833333333333333
+    },
+    "sn_rob@0.5": {
+     "depth": {
+      "differ": 0.105,
+      "reversal": 0.0,
+      "manufactured": 0.065,
+      "lost": 0.04,
+      "ci_excludes_gold": 0.01
+     },
+     "size": {
+      "differ": 0.045,
+      "reversal": 0.0,
+      "manufactured": 0.02,
+      "lost": 0.025,
+      "ci_excludes_gold": 0.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.235
+     },
+     "mean_over_laws": 0.049999999999999996
+    },
+    "mh_dist@0.5": {
+     "depth": {
+      "differ": 0.185,
+      "reversal": 0.0,
+      "manufactured": 0.105,
+      "lost": 0.08,
+      "ci_excludes_gold": 0.035
+     },
+     "size": {
+      "differ": 0.065,
+      "reversal": 0.0,
+      "manufactured": 0.025,
+      "lost": 0.04,
+      "ci_excludes_gold": 0.03
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.7
+     },
+     "mean_over_laws": 0.08333333333333333
+    },
+    "fb_hate@0.5": {
+     "depth": {
+      "differ": 0.26,
+      "reversal": 0.0,
+      "manufactured": 0.165,
+      "lost": 0.095,
+      "ci_excludes_gold": 0.145
+     },
+     "size": {
+      "differ": 0.11,
+      "reversal": 0.0,
+      "manufactured": 0.065,
+      "lost": 0.045,
+      "ci_excludes_gold": 0.135
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.195
+     },
+     "mean_over_laws": 0.12333333333333334
+    },
+    "cn_off@0.5": {
+     "depth": {
+      "differ": 0.215,
+      "reversal": 0.0,
+      "manufactured": 0.18,
+      "lost": 0.035,
+      "ci_excludes_gold": 0.13
+     },
+     "size": {
+      "differ": 0.115,
+      "reversal": 0.0,
+      "manufactured": 0.07,
+      "lost": 0.045,
+      "ci_excludes_gold": 0.015
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.245
+     },
+     "mean_over_laws": 0.11
+    }
+   },
+   "single_rater_vs_goldB": {
+    "depth": {
+     "differ": 0.18,
+     "reversal": 0.0,
+     "manufactured": 0.05,
+     "lost": 0.13,
+     "ci_excludes_gold": 0.025
+    },
+    "size": {
+     "differ": 0.085,
+     "reversal": 0.0,
+     "manufactured": 0.07,
+     "lost": 0.015,
+     "ci_excludes_gold": 0.02
+    },
+    "log_rr": {
+     "differ": 0.0,
+     "reversal": 0.0,
+     "manufactured": 0.0,
+     "lost": 0.0,
+     "ci_excludes_gold": 0.915
+    },
+    "mean_over_laws": 0.08833333333333333
+   },
+   "goldB_vs_gold": {
+    "depth": {
+     "differ": 0.05,
+     "reversal": 0.0,
+     "manufactured": 0.03,
+     "lost": 0.02,
+     "ci_excludes_gold": 0.0
+    },
+    "size": {
+     "differ": 0.035,
+     "reversal": 0.0,
+     "manufactured": 0.01,
+     "lost": 0.025,
+     "ci_excludes_gold": 0.0
+    },
+    "log_rr": {
+     "differ": 0.0,
+     "reversal": 0.0,
+     "manufactured": 0.0,
+     "lost": 0.0,
+     "ci_excludes_gold": 0.0
+    },
+    "mean_over_laws": 0.028333333333333335
+   },
+   "pooled": {
+    "kappa_ge_06": {
+     "depth": {
+      "differ": 0.13,
+      "ci_excludes_gold": 0.011250000000000001
+     },
+     "size": {
+      "differ": 0.05249999999999999,
+      "ci_excludes_gold": 0.005
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "ci_excludes_gold": 0.24000000000000002
+     },
+     "n": 4
+    },
+    "llm": {
+     "depth": {
+      "differ": 0.637,
+      "ci_excludes_gold": 0.5900000000000001
+     },
+     "size": {
+      "differ": 0.643,
+      "ci_excludes_gold": 0.644
+     },
+     "log_rr": {
+      "differ": 0.083,
+      "ci_excludes_gold": 0.893
+     },
+     "n": 5
+    },
+    "classifier": {
+     "depth": {
+      "differ": 0.21785714285714283,
+      "ci_excludes_gold": 0.1242857142857143
+     },
+     "size": {
+      "differ": 0.08571428571428573,
+      "ci_excludes_gold": 0.046785714285714285
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "ci_excludes_gold": 0.3567857142857143
+     },
+     "n": 14
+    }
+   }
+  },
+  "50000": {
+   "n_subsamples": 200,
+   "size_median": 50019.5,
+   "gold_verdicts": {
+    "depth": {
+     "-1": 0.345,
+     "0": 0.655,
+     "1": 0.0
+    },
+    "size": {
+     "-1": 0.0,
+     "0": 0.84,
+     "1": 0.16
+    },
+    "log_rr": {
+     "-1": 0.0,
+     "0": 0.0,
+     "1": 1.0
+    }
+   },
+   "instruments": {
+    "haiku": {
+     "depth": {
+      "differ": 1.0,
+      "reversal": 0.345,
+      "manufactured": 0.655,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.84,
+      "reversal": 0.0,
+      "manufactured": 0.84,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.6133333333333333
+    },
+    "haiku_ctx": {
+     "depth": {
+      "differ": 1.0,
+      "reversal": 0.345,
+      "manufactured": 0.655,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.84,
+      "reversal": 0.0,
+      "manufactured": 0.84,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.6133333333333333
+    },
+    "qwen7b_m": {
+     "depth": {
+      "differ": 0.335,
+      "reversal": 0.0,
+      "manufactured": 0.05,
+      "lost": 0.285,
+      "ci_excludes_gold": 0.165
+     },
+     "size": {
+      "differ": 0.375,
+      "reversal": 0.0,
+      "manufactured": 0.295,
+      "lost": 0.08,
+      "ci_excludes_gold": 0.11
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.99
+     },
+     "mean_over_laws": 0.23666666666666666
+    },
+    "qwen7b_m_ctx": {
+     "depth": {
+      "differ": 1.0,
+      "reversal": 0.345,
+      "manufactured": 0.655,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.84,
+      "reversal": 0.0,
+      "manufactured": 0.84,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.6133333333333333
+    },
+    "qwen7b": {
+     "depth": {
+      "differ": 0.53,
+      "reversal": 0.0,
+      "manufactured": 0.52,
+      "lost": 0.01,
+      "ci_excludes_gold": 0.655
+     },
+     "size": {
+      "differ": 0.835,
+      "reversal": 0.0,
+      "manufactured": 0.835,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.98
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.455
+    },
+    "detoxify_original@0.6": {
+     "depth": {
+      "differ": 0.275,
+      "reversal": 0.0,
+      "manufactured": 0.035,
+      "lost": 0.24,
+      "ci_excludes_gold": 0.36
+     },
+     "size": {
+      "differ": 0.175,
+      "reversal": 0.0,
+      "manufactured": 0.055,
+      "lost": 0.12,
+      "ci_excludes_gold": 0.205
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.975
+     },
+     "mean_over_laws": 0.15
+    },
+    "detoxify_original@m": {
+     "depth": {
+      "differ": 0.31,
+      "reversal": 0.0,
+      "manufactured": 0.01,
+      "lost": 0.3,
+      "ci_excludes_gold": 0.185
+     },
+     "size": {
+      "differ": 0.22,
+      "reversal": 0.0,
+      "manufactured": 0.17,
+      "lost": 0.05,
+      "ci_excludes_gold": 0.03
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.69
+     },
+     "mean_over_laws": 0.17666666666666667
+    },
+    "detoxify_unbiased@0.6": {
+     "depth": {
+      "differ": 0.245,
+      "reversal": 0.0,
+      "manufactured": 0.18,
+      "lost": 0.065,
+      "ci_excludes_gold": 0.005
+     },
+     "size": {
+      "differ": 0.14,
+      "reversal": 0.0,
+      "manufactured": 0.02,
+      "lost": 0.12,
+      "ci_excludes_gold": 0.025
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.795
+     },
+     "mean_over_laws": 0.12833333333333333
+    },
+    "detoxify_unbiased@m": {
+     "depth": {
+      "differ": 0.23,
+      "reversal": 0.0,
+      "manufactured": 0.15,
+      "lost": 0.08,
+      "ci_excludes_gold": 0.0
+     },
+     "size": {
+      "differ": 0.12,
+      "reversal": 0.0,
+      "manufactured": 0.015,
+      "lost": 0.105,
+      "ci_excludes_gold": 0.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.51
+     },
+     "mean_over_laws": 0.11666666666666665
+    },
+    "imsypp@argmax": {
+     "depth": {
+      "differ": 0.63,
+      "reversal": 0.0,
+      "manufactured": 0.63,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.95
+     },
+     "size": {
+      "differ": 0.21,
+      "reversal": 0.0,
+      "manufactured": 0.1,
+      "lost": 0.11,
+      "ci_excludes_gold": 0.05
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.27999999999999997
+    },
+    "imsypp@m": {
+     "depth": {
+      "differ": 0.655,
+      "reversal": 0.0,
+      "manufactured": 0.655,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.445,
+      "reversal": 0.005,
+      "manufactured": 0.285,
+      "lost": 0.155,
+      "ci_excludes_gold": 0.655
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.15
+     },
+     "mean_over_laws": 0.3666666666666667
+    },
+    "sn_rob@m": {
+     "depth": {
+      "differ": 0.24,
+      "reversal": 0.0,
+      "manufactured": 0.195,
+      "lost": 0.045,
+      "ci_excludes_gold": 0.01
+     },
+     "size": {
+      "differ": 0.125,
+      "reversal": 0.0,
+      "manufactured": 0.04,
+      "lost": 0.085,
+      "ci_excludes_gold": 0.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.825
+     },
+     "mean_over_laws": 0.12166666666666666
+    },
+    "mh_dist@m": {
+     "depth": {
+      "differ": 0.235,
+      "reversal": 0.0,
+      "manufactured": 0.05,
+      "lost": 0.185,
+      "ci_excludes_gold": 0.0
+     },
+     "size": {
+      "differ": 0.195,
+      "reversal": 0.0,
+      "manufactured": 0.155,
+      "lost": 0.04,
+      "ci_excludes_gold": 0.025
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.905
+     },
+     "mean_over_laws": 0.14333333333333334
+    },
+    "fb_hate@m": {
+     "depth": {
+      "differ": 0.415,
+      "reversal": 0.0,
+      "manufactured": 0.265,
+      "lost": 0.15,
+      "ci_excludes_gold": 0.1
+     },
+     "size": {
+      "differ": 0.21,
+      "reversal": 0.0,
+      "manufactured": 0.065,
+      "lost": 0.145,
+      "ci_excludes_gold": 0.205
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.36
+     },
+     "mean_over_laws": 0.20833333333333334
+    },
+    "cn_off@m": {
+     "depth": {
+      "differ": 0.36,
+      "reversal": 0.0,
+      "manufactured": 0.32,
+      "lost": 0.04,
+      "ci_excludes_gold": 0.075
+     },
+     "size": {
+      "differ": 0.165,
+      "reversal": 0.0,
+      "manufactured": 0.055,
+      "lost": 0.11,
+      "ci_excludes_gold": 0.03
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.875
+     },
+     "mean_over_laws": 0.17500000000000002
+    },
+    "sn_rob@0.5": {
+     "depth": {
+      "differ": 0.21,
+      "reversal": 0.0,
+      "manufactured": 0.145,
+      "lost": 0.065,
+      "ci_excludes_gold": 0.005
+     },
+     "size": {
+      "differ": 0.105,
+      "reversal": 0.0,
+      "manufactured": 0.04,
+      "lost": 0.065,
+      "ci_excludes_gold": 0.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.65
+     },
+     "mean_over_laws": 0.105
+    },
+    "mh_dist@0.5": {
+     "depth": {
+      "differ": 0.195,
+      "reversal": 0.0,
+      "manufactured": 0.11,
+      "lost": 0.085,
+      "ci_excludes_gold": 0.005
+     },
+     "size": {
+      "differ": 0.155,
+      "reversal": 0.0,
+      "manufactured": 0.06,
+      "lost": 0.095,
+      "ci_excludes_gold": 0.035
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.11666666666666665
+    },
+    "fb_hate@0.5": {
+     "depth": {
+      "differ": 0.46,
+      "reversal": 0.0,
+      "manufactured": 0.385,
+      "lost": 0.075,
+      "ci_excludes_gold": 0.175
+     },
+     "size": {
+      "differ": 0.26,
+      "reversal": 0.0,
+      "manufactured": 0.1,
+      "lost": 0.16,
+      "ci_excludes_gold": 0.37
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.465
+     },
+     "mean_over_laws": 0.24
+    },
+    "cn_off@0.5": {
+     "depth": {
+      "differ": 0.365,
+      "reversal": 0.0,
+      "manufactured": 0.315,
+      "lost": 0.05,
+      "ci_excludes_gold": 0.245
+     },
+     "size": {
+      "differ": 0.17,
+      "reversal": 0.0,
+      "manufactured": 0.1,
+      "lost": 0.07,
+      "ci_excludes_gold": 0.015
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.32
+     },
+     "mean_over_laws": 0.17833333333333334
+    }
+   },
+   "single_rater_vs_goldB": {
+    "depth": {
+     "differ": 0.29,
+     "reversal": 0.0,
+     "manufactured": 0.04,
+     "lost": 0.25,
+     "ci_excludes_gold": 0.02
+    },
+    "size": {
+     "differ": 0.31,
+     "reversal": 0.0,
+     "manufactured": 0.275,
+     "lost": 0.035,
+     "ci_excludes_gold": 0.115
+    },
+    "log_rr": {
+     "differ": 0.0,
+     "reversal": 0.0,
+     "manufactured": 0.0,
+     "lost": 0.0,
+     "ci_excludes_gold": 1.0
+    },
+    "mean_over_laws": 0.19999999999999998
+   },
+   "goldB_vs_gold": {
+    "depth": {
+     "differ": 0.095,
+     "reversal": 0.0,
+     "manufactured": 0.075,
+     "lost": 0.02,
+     "ci_excludes_gold": 0.0
+    },
+    "size": {
+     "differ": 0.045,
+     "reversal": 0.0,
+     "manufactured": 0.005,
+     "lost": 0.04,
+     "ci_excludes_gold": 0.0
+    },
+    "log_rr": {
+     "differ": 0.0,
+     "reversal": 0.0,
+     "manufactured": 0.0,
+     "lost": 0.0,
+     "ci_excludes_gold": 0.01
+    },
+    "mean_over_laws": 0.04666666666666667
+   },
+   "pooled": {
+    "kappa_ge_06": {
+     "depth": {
+      "differ": 0.23124999999999998,
+      "ci_excludes_gold": 0.005
+     },
+     "size": {
+      "differ": 0.1225,
+      "ci_excludes_gold": 0.00625
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "ci_excludes_gold": 0.695
+     },
+     "n": 4
+    },
+    "llm": {
+     "depth": {
+      "differ": 0.773,
+      "ci_excludes_gold": 0.764
+     },
+     "size": {
+      "differ": 0.7459999999999999,
+      "ci_excludes_gold": 0.818
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "ci_excludes_gold": 0.998
+     },
+     "n": 5
+    },
+    "classifier": {
+     "depth": {
+      "differ": 0.34464285714285714,
+      "ci_excludes_gold": 0.22249999999999998
+     },
+     "size": {
+      "differ": 0.19249999999999995,
+      "ci_excludes_gold": 0.11749999999999998
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "ci_excludes_gold": 0.6799999999999999
+     },
+     "n": 14
+    }
+   }
+  },
+  "100000": {
+   "n_subsamples": 200,
+   "size_median": 100020.0,
+   "gold_verdicts": {
+    "depth": {
+     "-1": 0.48,
+     "0": 0.52,
+     "1": 0.0
+    },
+    "size": {
+     "-1": 0.0,
+     "0": 0.745,
+     "1": 0.255
+    },
+    "log_rr": {
+     "-1": 0.0,
+     "0": 0.0,
+     "1": 1.0
+    }
+   },
+   "instruments": {
+    "haiku": {
+     "depth": {
+      "differ": 1.0,
+      "reversal": 0.48,
+      "manufactured": 0.52,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.745,
+      "reversal": 0.0,
+      "manufactured": 0.745,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.5816666666666667
+    },
+    "haiku_ctx": {
+     "depth": {
+      "differ": 1.0,
+      "reversal": 0.48,
+      "manufactured": 0.52,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.745,
+      "reversal": 0.0,
+      "manufactured": 0.745,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.5816666666666667
+    },
+    "qwen7b_m": {
+     "depth": {
+      "differ": 0.435,
+      "reversal": 0.0,
+      "manufactured": 0.05,
+      "lost": 0.385,
+      "ci_excludes_gold": 0.24
+     },
+     "size": {
+      "differ": 0.525,
+      "reversal": 0.0,
+      "manufactured": 0.47,
+      "lost": 0.055,
+      "ci_excludes_gold": 0.215
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.32
+    },
+    "qwen7b_m_ctx": {
+     "depth": {
+      "differ": 1.0,
+      "reversal": 0.48,
+      "manufactured": 0.52,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.745,
+      "reversal": 0.0,
+      "manufactured": 0.745,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.5816666666666667
+    },
+    "qwen7b": {
+     "depth": {
+      "differ": 0.49,
+      "reversal": 0.0,
+      "manufactured": 0.49,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.915
+     },
+     "size": {
+      "differ": 0.745,
+      "reversal": 0.0,
+      "manufactured": 0.745,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.995
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.4116666666666666
+    },
+    "detoxify_original@0.6": {
+     "depth": {
+      "differ": 0.355,
+      "reversal": 0.0,
+      "manufactured": 0.02,
+      "lost": 0.335,
+      "ci_excludes_gold": 0.535
+     },
+     "size": {
+      "differ": 0.255,
+      "reversal": 0.0,
+      "manufactured": 0.055,
+      "lost": 0.2,
+      "ci_excludes_gold": 0.28
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.20333333333333334
+    },
+    "detoxify_original@m": {
+     "depth": {
+      "differ": 0.465,
+      "reversal": 0.0,
+      "manufactured": 0.01,
+      "lost": 0.455,
+      "ci_excludes_gold": 0.44
+     },
+     "size": {
+      "differ": 0.3,
+      "reversal": 0.0,
+      "manufactured": 0.27,
+      "lost": 0.03,
+      "ci_excludes_gold": 0.045
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.945
+     },
+     "mean_over_laws": 0.255
+    },
+    "detoxify_unbiased@0.6": {
+     "depth": {
+      "differ": 0.175,
+      "reversal": 0.0,
+      "manufactured": 0.145,
+      "lost": 0.03,
+      "ci_excludes_gold": 0.005
+     },
+     "size": {
+      "differ": 0.205,
+      "reversal": 0.0,
+      "manufactured": 0.015,
+      "lost": 0.19,
+      "ci_excludes_gold": 0.035
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.985
+     },
+     "mean_over_laws": 0.12666666666666668
+    },
+    "detoxify_unbiased@m": {
+     "depth": {
+      "differ": 0.18,
+      "reversal": 0.0,
+      "manufactured": 0.135,
+      "lost": 0.045,
+      "ci_excludes_gold": 0.0
+     },
+     "size": {
+      "differ": 0.18,
+      "reversal": 0.0,
+      "manufactured": 0.03,
+      "lost": 0.15,
+      "ci_excludes_gold": 0.015
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.855
+     },
+     "mean_over_laws": 0.12
+    },
+    "imsypp@argmax": {
+     "depth": {
+      "differ": 0.52,
+      "reversal": 0.0,
+      "manufactured": 0.52,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.27,
+      "reversal": 0.0,
+      "manufactured": 0.135,
+      "lost": 0.135,
+      "ci_excludes_gold": 0.08
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.26333333333333336
+    },
+    "imsypp@m": {
+     "depth": {
+      "differ": 0.52,
+      "reversal": 0.0,
+      "manufactured": 0.52,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "size": {
+      "differ": 0.655,
+      "reversal": 0.035,
+      "manufactured": 0.4,
+      "lost": 0.22,
+      "ci_excludes_gold": 0.915
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.175
+     },
+     "mean_over_laws": 0.39166666666666666
+    },
+    "sn_rob@m": {
+     "depth": {
+      "differ": 0.17,
+      "reversal": 0.0,
+      "manufactured": 0.14,
+      "lost": 0.03,
+      "ci_excludes_gold": 0.0
+     },
+     "size": {
+      "differ": 0.205,
+      "reversal": 0.0,
+      "manufactured": 0.045,
+      "lost": 0.16,
+      "ci_excludes_gold": 0.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.995
+     },
+     "mean_over_laws": 0.125
+    },
+    "mh_dist@m": {
+     "depth": {
+      "differ": 0.24,
+      "reversal": 0.0,
+      "manufactured": 0.02,
+      "lost": 0.22,
+      "ci_excludes_gold": 0.0
+     },
+     "size": {
+      "differ": 0.27,
+      "reversal": 0.0,
+      "manufactured": 0.245,
+      "lost": 0.025,
+      "ci_excludes_gold": 0.01
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.995
+     },
+     "mean_over_laws": 0.17
+    },
+    "fb_hate@m": {
+     "depth": {
+      "differ": 0.43,
+      "reversal": 0.0,
+      "manufactured": 0.305,
+      "lost": 0.125,
+      "ci_excludes_gold": 0.045
+     },
+     "size": {
+      "differ": 0.265,
+      "reversal": 0.0,
+      "manufactured": 0.015,
+      "lost": 0.25,
+      "ci_excludes_gold": 0.27
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.555
+     },
+     "mean_over_laws": 0.2316666666666667
+    },
+    "cn_off@m": {
+     "depth": {
+      "differ": 0.405,
+      "reversal": 0.0,
+      "manufactured": 0.4,
+      "lost": 0.005,
+      "ci_excludes_gold": 0.165
+     },
+     "size": {
+      "differ": 0.26,
+      "reversal": 0.0,
+      "manufactured": 0.07,
+      "lost": 0.19,
+      "ci_excludes_gold": 0.025
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.995
+     },
+     "mean_over_laws": 0.22166666666666668
+    },
+    "sn_rob@0.5": {
+     "depth": {
+      "differ": 0.18,
+      "reversal": 0.0,
+      "manufactured": 0.135,
+      "lost": 0.045,
+      "ci_excludes_gold": 0.0
+     },
+     "size": {
+      "differ": 0.17,
+      "reversal": 0.0,
+      "manufactured": 0.045,
+      "lost": 0.125,
+      "ci_excludes_gold": 0.0
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.955
+     },
+     "mean_over_laws": 0.11666666666666665
+    },
+    "mh_dist@0.5": {
+     "depth": {
+      "differ": 0.215,
+      "reversal": 0.0,
+      "manufactured": 0.07,
+      "lost": 0.145,
+      "ci_excludes_gold": 0.025
+     },
+     "size": {
+      "differ": 0.21,
+      "reversal": 0.0,
+      "manufactured": 0.045,
+      "lost": 0.165,
+      "ci_excludes_gold": 0.055
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "mean_over_laws": 0.14166666666666666
+    },
+    "fb_hate@0.5": {
+     "depth": {
+      "differ": 0.505,
+      "reversal": 0.0,
+      "manufactured": 0.465,
+      "lost": 0.04,
+      "ci_excludes_gold": 0.19
+     },
+     "size": {
+      "differ": 0.32,
+      "reversal": 0.02,
+      "manufactured": 0.065,
+      "lost": 0.235,
+      "ci_excludes_gold": 0.52
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.68
+     },
+     "mean_over_laws": 0.27499999999999997
+    },
+    "cn_off@0.5": {
+     "depth": {
+      "differ": 0.39,
+      "reversal": 0.0,
+      "manufactured": 0.39,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.465
+     },
+     "size": {
+      "differ": 0.285,
+      "reversal": 0.0,
+      "manufactured": 0.2,
+      "lost": 0.085,
+      "ci_excludes_gold": 0.05
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "reversal": 0.0,
+      "manufactured": 0.0,
+      "lost": 0.0,
+      "ci_excludes_gold": 0.355
+     },
+     "mean_over_laws": 0.225
+    }
+   },
+   "single_rater_vs_goldB": {
+    "depth": {
+     "differ": 0.365,
+     "reversal": 0.0,
+     "manufactured": 0.04,
+     "lost": 0.325,
+     "ci_excludes_gold": 0.015
+    },
+    "size": {
+     "differ": 0.49,
+     "reversal": 0.0,
+     "manufactured": 0.47,
+     "lost": 0.02,
+     "ci_excludes_gold": 0.25
+    },
+    "log_rr": {
+     "differ": 0.0,
+     "reversal": 0.0,
+     "manufactured": 0.0,
+     "lost": 0.0,
+     "ci_excludes_gold": 1.0
+    },
+    "mean_over_laws": 0.285
+   },
+   "goldB_vs_gold": {
+    "depth": {
+     "differ": 0.135,
+     "reversal": 0.0,
+     "manufactured": 0.12,
+     "lost": 0.015,
+     "ci_excludes_gold": 0.0
+    },
+    "size": {
+     "differ": 0.145,
+     "reversal": 0.0,
+     "manufactured": 0.015,
+     "lost": 0.13,
+     "ci_excludes_gold": 0.0
+    },
+    "log_rr": {
+     "differ": 0.0,
+     "reversal": 0.0,
+     "manufactured": 0.0,
+     "lost": 0.0,
+     "ci_excludes_gold": 0.06
+    },
+    "mean_over_laws": 0.09333333333333334
+   },
+   "pooled": {
+    "kappa_ge_06": {
+     "depth": {
+      "differ": 0.17625000000000002,
+      "ci_excludes_gold": 0.00125
+     },
+     "size": {
+      "differ": 0.19,
+      "ci_excludes_gold": 0.0125
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "ci_excludes_gold": 0.9475
+     },
+     "n": 4
+    },
+    "llm": {
+     "depth": {
+      "differ": 0.7849999999999999,
+      "ci_excludes_gold": 0.8310000000000001
+     },
+     "size": {
+      "differ": 0.7010000000000001,
+      "ci_excludes_gold": 0.842
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "ci_excludes_gold": 1.0
+     },
+     "n": 5
+    },
+    "classifier": {
+     "depth": {
+      "differ": 0.3392857142857143,
+      "ci_excludes_gold": 0.2764285714285714
+     },
+     "size": {
+      "differ": 0.275,
+      "ci_excludes_gold": 0.16428571428571428
+     },
+     "log_rr": {
+      "differ": 0.0,
+      "ci_excludes_gold": 0.8207142857142856
+     },
+     "n": 14
+    }
+   }
+  }
+ },
+ "kappa": {
+  "haiku": 0.2459180171096959,
+  "haiku_ctx": 0.19436976133932068,
+  "qwen7b_m": 0.2182780993545416,
+  "qwen7b_m_ctx": 0.16388904464298235,
+  "qwen7b": 0.09590722719533547,
+  "detoxify_original@0.6": 0.4355581299443637,
+  "detoxify_original@m": 0.504328073757693,
+  "detoxify_unbiased@0.6": 0.7055214645629841,
+  "detoxify_unbiased@m": 0.7094462124360883,
+  "imsypp@argmax": 0.1973345761908916,
+  "imsypp@m": 0.40628022609564457,
+  "sn_rob@m": 0.708810923817332,
+  "mh_dist@m": 0.5962436301277303,
+  "fb_hate@m": 0.11496496066223995,
+  "cn_off@m": 0.5253270010686821,
+  "sn_rob@0.5": 0.7055741037733377,
+  "mh_dist@0.5": 0.565602936298453,
+  "fb_hate@0.5": 0.10867059154857966,
+  "cn_off@0.5": 0.45412840745336436
+ }
+}

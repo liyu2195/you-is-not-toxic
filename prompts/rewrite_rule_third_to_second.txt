@@ -1,0 +1,7 @@
+From third to second person.
+
+The reverse rule replaces each match of the pattern
+
+    \b(they|them|their|theirs|themselves|they're|theyre|they've|they'd|they'll)\b
+
+(case-insensitive): they and them become you, their your, theirs yours, themselves yourselves and theyre youre; a contraction with an apostrophe matches as they and becomes you're, you've, you'd or you'll. Capitals are kept as in the forward rule. Every other third-person form (he, she, it, him, her, his, its) is left as it is, and the rule is applied only to the reverse sample, whose comments contain no second-person word.

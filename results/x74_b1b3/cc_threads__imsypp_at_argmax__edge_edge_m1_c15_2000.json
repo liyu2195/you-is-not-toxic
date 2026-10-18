@@ -1,0 +1,57 @@
+{
+ "pop": "cc_threads",
+ "args": {
+  "pop": "cc_threads",
+  "out": "/opt/x74_www-c3/out/cc_threads__imsypp_at_argmax__edge_edge_m1_c15_2000.json",
+  "labelers": "imsypp@argmax",
+  "reps": 500,
+  "seed": 7400,
+  "item_budgets": "250,500,1000,2000,4000,8000",
+  "edge_budgets": "2000",
+  "item_designs": "srs,ppi,dstrat,flagprop,upgrade,upgrade_lw",
+  "edge_designs": "edge_m1_c15",
+  "procs": 1,
+  "regimes": "edge",
+  "edge_fill": true,
+  "pops_dir": "x14_pops",
+  "aux": "detoxify_original@m,imsypp@m",
+  "score_onesided": true
+ },
+ "results": [
+  {
+   "labeler": "imsypp@argmax",
+   "item": {},
+   "edge": {
+    "2000": {
+     "edge_m1_c15": {
+      "log_rr": {
+       "coverage": 0.968,
+       "width": 0.8888798880208879,
+       "undefined": 0.0,
+       "bias": 0.03875385115388141,
+       "rmse": 0.5316311329835594,
+       "detect": 0.346
+      },
+      "log_placebo_rr": {
+       "coverage": 0.948,
+       "width": 0.14406467991472022,
+       "undefined": 0.0,
+       "bias": 0.0006996747987719765,
+       "rmse": 0.06824721941061472
+      },
+      "_labels": 1999.978
+     }
+    }
+   },
+   "truth_edge": {
+    "log_rr": 0.8708200831887911,
+    "log_placebo_rr": 0.5567990860509102,
+    "rr": 2.388869121850111,
+    "placebo_rr": 1.7450777072720818
+   },
+   "labeler_edge": {
+    "rr": 1.7198592794812133
+   }
+  }
+ ]
+}

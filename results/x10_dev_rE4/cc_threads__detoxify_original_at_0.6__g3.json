@@ -1,0 +1,157 @@
+{
+ "pop": "cc_threads",
+ "args": {
+  "pop": "cc_threads",
+  "out": "/opt/x70_dev_rE4/out/cc_threads__detoxify_original_at_0.6__g3.json",
+  "labelers": "detoxify_original@0.6",
+  "reps": 300,
+  "seed": 6100,
+  "item_budgets": "250,500,1000,2000,4000,8000",
+  "edge_budgets": "500,1000,2000,4000,8000,16000",
+  "item_designs": "srs,ppi,dstrat,flagprop,upgrade,upgrade_lw",
+  "edge_designs": "edge_m3_c25_p05",
+  "procs": 1,
+  "regimes": "edge",
+  "edge_fill": true,
+  "pops_dir": "x10_pops",
+  "aux": "detoxify_original@m,imsypp@m",
+  "score_onesided": true
+ },
+ "results": [
+  {
+   "labeler": "detoxify_original@0.6",
+   "item": {},
+   "edge": {
+    "500": {
+     "edge_m3_c25_p05": {
+      "log_rr": {
+       "coverage": 0.9333333333333333,
+       "width": 2.3555975436474554,
+       "undefined": 0.0,
+       "bias": 0.26108222184009033,
+       "rmse": 1.6350224538027192,
+       "detect": 0.07666666666666666
+      },
+      "log_placebo_rr": {
+       "coverage": 1.0,
+       "width": 5.10917211850552,
+       "undefined": 0.0,
+       "bias": 1.778635250380879,
+       "rmse": 7.08470974111116
+      },
+      "_labels": 500.0233333333333
+     }
+    },
+    "1000": {
+     "edge_m3_c25_p05": {
+      "log_rr": {
+       "coverage": 0.9566666666666667,
+       "width": 1.508411195054167,
+       "undefined": 0.0,
+       "bias": 0.044579800988299834,
+       "rmse": 0.8900824734064334,
+       "detect": 0.13666666666666666
+      },
+      "log_placebo_rr": {
+       "coverage": 1.0,
+       "width": 3.890586098323044,
+       "undefined": 0.0,
+       "bias": 0.10071823688189951,
+       "rmse": 2.171199357867354
+      },
+      "_labels": 1000.03
+     }
+    },
+    "2000": {
+     "edge_m3_c25_p05": {
+      "log_rr": {
+       "coverage": 0.9566666666666667,
+       "width": 0.9194477180524624,
+       "undefined": 0.0,
+       "bias": 0.003726589297365024,
+       "rmse": 0.5511149004308362,
+       "detect": 0.38333333333333336
+      },
+      "log_placebo_rr": {
+       "coverage": 1.0,
+       "width": 2.7783982450769167,
+       "undefined": 0.0,
+       "bias": 0.05622500139077502,
+       "rmse": 1.2765874877897425
+      },
+      "_labels": 1999.8633333333332
+     }
+    },
+    "4000": {
+     "edge_m3_c25_p05": {
+      "log_rr": {
+       "coverage": 0.9466666666666667,
+       "width": 0.602794381075177,
+       "undefined": 0.0,
+       "bias": 0.0233750448213752,
+       "rmse": 0.36461852860782556,
+       "detect": 0.6666666666666666
+      },
+      "log_placebo_rr": {
+       "coverage": 1.0,
+       "width": 1.9701652123105637,
+       "undefined": 0.0,
+       "bias": -0.0244125248209075,
+       "rmse": 0.7833611618113105
+      },
+      "_labels": 3999.7933333333335
+     }
+    },
+    "8000": {
+     "edge_m3_c25_p05": {
+      "log_rr": {
+       "coverage": 0.9566666666666667,
+       "width": 0.4157176732993087,
+       "undefined": 0.0,
+       "bias": 0.009514350669347138,
+       "rmse": 0.23902406820792568,
+       "detect": 0.9566666666666667
+      },
+      "log_placebo_rr": {
+       "coverage": 0.97,
+       "width": 0.6956951752578999,
+       "undefined": 0.0,
+       "bias": -0.009066854461654117,
+       "rmse": 0.5276655493019111
+      },
+      "_labels": 7999.816666666667
+     }
+    },
+    "16000": {
+     "edge_m3_c25_p05": {
+      "log_rr": {
+       "coverage": 0.95,
+       "width": 0.29086886407924806,
+       "undefined": 0.0,
+       "bias": 0.0076097291631893604,
+       "rmse": 0.1641390119311983,
+       "detect": 1.0
+      },
+      "log_placebo_rr": {
+       "coverage": 0.97,
+       "width": 0.30016024007997477,
+       "undefined": 0.0,
+       "bias": -0.011036711100873564,
+       "rmse": 0.2986825558179001
+      },
+      "_labels": 16000.633333333333
+     }
+    }
+   },
+   "truth_edge": {
+    "log_rr": 0.8708200831887911,
+    "log_placebo_rr": 1.3889987766659253,
+    "rr": 2.388869121850111,
+    "placebo_rr": 4.010832303106434
+   },
+   "labeler_edge": {
+    "rr": 3.4384815799235917
+   }
+  }
+ ]
+}

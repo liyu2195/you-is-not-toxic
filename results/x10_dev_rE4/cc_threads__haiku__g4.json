@@ -1,0 +1,157 @@
+{
+ "pop": "cc_threads",
+ "args": {
+  "pop": "cc_threads",
+  "out": "/opt/x70_dev_rE4/out/cc_threads__haiku__g4.json",
+  "labelers": "haiku",
+  "reps": 300,
+  "seed": 6100,
+  "item_budgets": "250,500,1000,2000,4000,8000",
+  "edge_budgets": "500,1000,2000,4000,8000,16000",
+  "item_designs": "srs,ppi,dstrat,flagprop,upgrade,upgrade_lw",
+  "edge_designs": "edge_m3_c25_or",
+  "procs": 1,
+  "regimes": "edge",
+  "edge_fill": true,
+  "pops_dir": "x10_pops",
+  "aux": "detoxify_original@m,imsypp@m",
+  "score_onesided": true
+ },
+ "results": [
+  {
+   "labeler": "haiku",
+   "item": {},
+   "edge": {
+    "500": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9666666666666667,
+       "width": 1.709868465599578,
+       "undefined": 0.0,
+       "bias": 0.09039259512539966,
+       "rmse": 1.0705212125482149,
+       "detect": 0.09333333333333334
+      },
+      "log_placebo_rr": {
+       "coverage": 0.9233333333333333,
+       "width": 0.37272198555795805,
+       "undefined": 0.0,
+       "bias": 0.010609512439095026,
+       "rmse": 0.18859643036573712
+      },
+      "_labels": 500.0133333333333
+     }
+    },
+    "1000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.96,
+       "width": 1.0341349650003944,
+       "undefined": 0.0,
+       "bias": 0.08764940561534207,
+       "rmse": 0.6239598988458968,
+       "detect": 0.19666666666666666
+      },
+      "log_placebo_rr": {
+       "coverage": 0.9433333333333334,
+       "width": 0.257239626936498,
+       "undefined": 0.0,
+       "bias": 0.004197131814384303,
+       "rmse": 0.12895060978338557
+      },
+      "_labels": 999.9966666666667
+     }
+    },
+    "2000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9666666666666667,
+       "width": 0.7146958135646069,
+       "undefined": 0.0,
+       "bias": 0.044512239209157034,
+       "rmse": 0.4429170681796609,
+       "detect": 0.32666666666666666
+      },
+      "log_placebo_rr": {
+       "coverage": 0.9433333333333334,
+       "width": 0.18259621912629834,
+       "undefined": 0.0,
+       "bias": -0.005408420784948076,
+       "rmse": 0.08928542582111956
+      },
+      "_labels": 2000.0366666666666
+     }
+    },
+    "4000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9566666666666667,
+       "width": 0.5017922510873043,
+       "undefined": 0.0,
+       "bias": 0.011398237541833112,
+       "rmse": 0.31071631082953605,
+       "detect": 0.5466666666666666
+      },
+      "log_placebo_rr": {
+       "coverage": 0.9533333333333334,
+       "width": 0.12856123077128137,
+       "undefined": 0.0,
+       "bias": 0.002611198020522787,
+       "rmse": 0.058272285141229174
+      },
+      "_labels": 3999.92
+     }
+    },
+    "8000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9333333333333333,
+       "width": 0.35434712541113633,
+       "undefined": 0.0,
+       "bias": -0.01092453685574446,
+       "rmse": 0.22472151467604393,
+       "detect": 0.85
+      },
+      "log_placebo_rr": {
+       "coverage": 0.97,
+       "width": 0.09020277205102548,
+       "undefined": 0.0,
+       "bias": -9.667492167331204e-05,
+       "rmse": 0.04075699822600556
+      },
+      "_labels": 7999.84
+     }
+    },
+    "16000": {
+     "edge_m3_c25_or": {
+      "log_rr": {
+       "coverage": 0.9666666666666667,
+       "width": 0.24873902259788588,
+       "undefined": 0.0,
+       "bias": -0.006589555037757933,
+       "rmse": 0.14749104129937052,
+       "detect": 0.9966666666666667
+      },
+      "log_placebo_rr": {
+       "coverage": 0.95,
+       "width": 0.06307032707704657,
+       "undefined": 0.0,
+       "bias": -0.003046448052192119,
+       "rmse": 0.029098057360972596
+      },
+      "_labels": 15999.996666666666
+     }
+    }
+   },
+   "truth_edge": {
+    "log_rr": 0.8708200831887911,
+    "log_placebo_rr": 0.6053231781350004,
+    "rr": 2.388869121850111,
+    "placebo_rr": 1.83184412520141
+   },
+   "labeler_edge": {
+    "rr": 1.8038715761708386
+   }
+  }
+ ]
+}

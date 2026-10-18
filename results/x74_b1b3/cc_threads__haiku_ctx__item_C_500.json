@@ -1,0 +1,208 @@
+{
+ "pop": "cc_threads",
+ "args": {
+  "pop": "cc_threads",
+  "out": "/opt/x74_www-c4/out/cc_threads__haiku_ctx__item_C_500.json",
+  "labelers": "haiku_ctx",
+  "reps": 500,
+  "seed": 7400,
+  "item_budgets": "500",
+  "edge_budgets": "500,1000,2000,4000,8000,16000",
+  "item_designs": "ai,dsl,calag,calag_s",
+  "edge_designs": "srs,ppi,flagprop,upgrade,upgrade_lw",
+  "procs": 1,
+  "regimes": "item",
+  "edge_fill": false,
+  "pops_dir": "x14_pops",
+  "aux": "detoxify_original@m,imsypp@m",
+  "score_onesided": false
+ },
+ "results": [
+  {
+   "labeler": "haiku_ctx",
+   "item": {
+    "500": {
+     "ai": {
+      "depth_law": {
+       "coverage": 0.97,
+       "width": 0.019659478897867993,
+       "undefined": 0.0,
+       "bias": -0.000134896510973396,
+       "rmse": 0.004842569486508907,
+       "detect": 0.986
+      },
+      "size_law": {
+       "coverage": 0.938,
+       "width": 0.04421469935590236,
+       "undefined": 0.0,
+       "bias": 0.00037498807542654276,
+       "rmse": 0.011544937536391447,
+       "detect": 0.872
+      },
+      "article_size_law": {
+       "coverage": 0.926,
+       "width": 0.02787897695816827,
+       "undefined": 0.0,
+       "bias": -0.00023488941576318848,
+       "rmse": 0.0071906968584692236,
+       "detect": 0.834
+      },
+      "placebo_depth": {
+       "coverage": 0.954,
+       "width": 0.012390527544465133,
+       "undefined": 0.0,
+       "bias": 0.0001656344435183761,
+       "rmse": 0.0032144083691448702
+      },
+      "placebo_size": {
+       "coverage": 0.966,
+       "width": 0.029077439641927577,
+       "undefined": 0.0,
+       "bias": 0.0002869701885050563,
+       "rmse": 0.007128089057156716
+      },
+      "_labels": 500.0
+     },
+     "dsl": {
+      "depth_law": {
+       "coverage": 0.91,
+       "width": 0.019379788433394208,
+       "undefined": 0.0,
+       "bias": -2.107458417563565e-06,
+       "rmse": 0.005178380752080717,
+       "detect": 0.962
+      },
+      "size_law": {
+       "coverage": 0.936,
+       "width": 0.04023982691733972,
+       "undefined": 0.0,
+       "bias": 0.0008025103569271582,
+       "rmse": 0.010704959113877793,
+       "detect": 0.916
+      },
+      "article_size_law": {
+       "coverage": 0.928,
+       "width": 0.036679232037004336,
+       "undefined": 0.0,
+       "bias": -0.00037313475288490786,
+       "rmse": 0.009872445511199427,
+       "detect": 0.602
+      },
+      "placebo_depth": {
+       "coverage": 0.94,
+       "width": 0.012036020168123857,
+       "undefined": 0.0,
+       "bias": -8.534444346912015e-05,
+       "rmse": 0.003176118214904042
+      },
+      "placebo_size": {
+       "coverage": 0.928,
+       "width": 0.026316894442996536,
+       "undefined": 0.0,
+       "bias": -6.714661288866747e-05,
+       "rmse": 0.007137556265304961
+      },
+      "_labels": 500.0
+     },
+     "calag": {
+      "depth_law": {
+       "coverage": 0.0,
+       "width": 0.0025381674769779827,
+       "undefined": 0.0,
+       "bias": 0.00423563883609733,
+       "rmse": 0.00429008274048779,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.028,
+       "width": 0.004522677962411872,
+       "undefined": 0.0,
+       "bias": 0.004200900922206586,
+       "rmse": 0.004372719937968588,
+       "detect": 1.0
+      },
+      "article_size_law": {
+       "coverage": 0.866,
+       "width": 0.0028041946950249108,
+       "undefined": 0.0,
+       "bias": 0.0005119859378492644,
+       "rmse": 0.0009112273865640237,
+       "detect": 1.0
+      },
+      "placebo_depth": {
+       "coverage": 0.0,
+       "width": 0.0012604878504443014,
+       "undefined": 0.0,
+       "bias": -0.0023432860724121457,
+       "rmse": 0.0023677505558862806
+      },
+      "placebo_size": {
+       "coverage": 0.0,
+       "width": 0.0026323839479326988,
+       "undefined": 0.0,
+       "bias": -0.0031976794763642485,
+       "rmse": 0.0032751519223557482
+      },
+      "_labels": 500.0
+     },
+     "calag_s": {
+      "depth_law": {
+       "coverage": 0.792,
+       "width": 0.017156205136007057,
+       "undefined": 0.0,
+       "bias": 0.005181349742556776,
+       "rmse": 0.007021746664277078,
+       "detect": 0.916
+      },
+      "size_law": {
+       "coverage": 0.7,
+       "width": 0.036870219949257106,
+       "undefined": 0.0,
+       "bias": 0.012462341749074953,
+       "rmse": 0.016245568757442347,
+       "detect": 0.692
+      },
+      "article_size_law": {
+       "coverage": 0.732,
+       "width": 0.01153809039184125,
+       "undefined": 0.0,
+       "bias": 0.0037147649013381397,
+       "rmse": 0.004930934422956169,
+       "detect": 1.0
+      },
+      "placebo_depth": {
+       "coverage": 0.93,
+       "width": 0.011660813701753292,
+       "undefined": 0.0,
+       "bias": 0.0005335567742348092,
+       "rmse": 0.003129861422696089
+      },
+      "placebo_size": {
+       "coverage": 0.93,
+       "width": 0.02593381165828739,
+       "undefined": 0.0,
+       "bias": 0.0006881689736056504,
+       "rmse": 0.007336766862524042
+      },
+      "_labels": 500.0
+     }
+    }
+   },
+   "edge": {},
+   "truth_item": {
+    "depth_law": -0.0012008294801654235,
+    "size_law": 0.0015201003654658814,
+    "article_size_law": 0.0031956444183837674,
+    "placebo_depth": 0.021314500669533467,
+    "placebo_size": 0.03687199638487235
+   },
+   "labeler_item": {
+    "depth_law": 0.020310477639049442,
+    "size_law": 0.03648240106501791,
+    "article_size_law": 0.02222239089913442,
+    "placebo_depth": null,
+    "placebo_size": null
+   }
+  }
+ ]
+}

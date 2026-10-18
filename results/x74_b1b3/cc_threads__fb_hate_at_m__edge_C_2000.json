@@ -1,0 +1,93 @@
+{
+ "pop": "cc_threads",
+ "args": {
+  "pop": "cc_threads",
+  "out": "/opt/x74_www-c3/out/cc_threads__fb_hate_at_m__edge_C_2000.json",
+  "labelers": "fb_hate@m",
+  "reps": 500,
+  "seed": 7400,
+  "item_budgets": "250,500,1000,2000,4000,8000",
+  "edge_budgets": "2000",
+  "item_designs": "srs,ppi,dstrat,flagprop,upgrade,upgrade_lw",
+  "edge_designs": "edge_ai,edge_dsl,edge_calag",
+  "procs": 1,
+  "regimes": "edge",
+  "edge_fill": true,
+  "pops_dir": "x14_pops",
+  "aux": "detoxify_original@m,imsypp@m",
+  "score_onesided": true
+ },
+ "results": [
+  {
+   "labeler": "fb_hate@m",
+   "item": {},
+   "edge": {
+    "2000": {
+     "edge_ai": {
+      "log_rr": {
+       "coverage": 0.946,
+       "width": 1.2338324400061025,
+       "undefined": 0.0,
+       "bias": 0.091245963280429,
+       "rmse": 0.7671308995235363,
+       "detect": 0.05
+      },
+      "log_placebo_rr": {
+       "coverage": 0.95,
+       "width": 0.52792253878947,
+       "undefined": 0.0,
+       "bias": 0.00476207461411482,
+       "rmse": 0.35787892072674704
+      },
+      "_labels": 1999.986
+     },
+     "edge_dsl": {
+      "log_rr": {
+       "coverage": 0.954,
+       "width": 1.112881533039227,
+       "undefined": 0.0,
+       "bias": 0.0067987020277557875,
+       "rmse": 0.6694391877356343,
+       "detect": 0.04
+      },
+      "log_placebo_rr": {
+       "coverage": 0.974,
+       "width": 1.0764412225660929,
+       "undefined": 0.0,
+       "bias": 0.05137170825007953,
+       "rmse": 0.44734537055134943
+      },
+      "_labels": 1999.506
+     },
+     "edge_calag": {
+      "log_rr": {
+       "coverage": 0.942,
+       "width": 1.02248364017396,
+       "undefined": 0.0,
+       "bias": 0.24377140197511915,
+       "rmse": 0.6747550881022335,
+       "detect": 0.054
+      },
+      "log_placebo_rr": {
+       "coverage": 0.932,
+       "width": 0.7798460084683443,
+       "undefined": 0.0,
+       "bias": -0.09827257647270038,
+       "rmse": 0.47185126484375045
+      },
+      "_labels": 1999.554
+     }
+    }
+   },
+   "truth_edge": {
+    "log_rr": 0.8708200831887911,
+    "log_placebo_rr": 0.9979216416148855,
+    "rr": 2.388869121850111,
+    "placebo_rr": 2.7126381314717714
+   },
+   "labeler_edge": {
+    "rr": 2.5763805042599257
+   }
+  }
+ ]
+}

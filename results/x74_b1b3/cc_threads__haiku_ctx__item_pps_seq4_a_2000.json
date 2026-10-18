@@ -1,0 +1,85 @@
+{
+ "pop": "cc_threads",
+ "args": {
+  "pop": "cc_threads",
+  "out": "/opt/x74_www-c2/out/cc_threads__haiku_ctx__item_pps_seq4_a_2000.json",
+  "labelers": "haiku_ctx",
+  "reps": 500,
+  "seed": 7400,
+  "item_budgets": "2000",
+  "edge_budgets": "500,1000,2000,4000,8000,16000",
+  "item_designs": "pps_seq4_a",
+  "edge_designs": "srs,ppi,flagprop,upgrade,upgrade_lw",
+  "procs": 1,
+  "regimes": "item",
+  "edge_fill": false,
+  "pops_dir": "x14_pops",
+  "aux": "detoxify_original@m,imsypp@m",
+  "score_onesided": false
+ },
+ "results": [
+  {
+   "labeler": "haiku_ctx",
+   "item": {
+    "2000": {
+     "pps_seq4_a": {
+      "depth_law": {
+       "coverage": 0.95,
+       "width": 0.006732948403074175,
+       "undefined": 0.0,
+       "bias": -4.4092704159375256e-05,
+       "rmse": 0.0016564726627243329,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.934,
+       "width": 0.0151143564936005,
+       "undefined": 0.0,
+       "bias": -0.00026300650037898877,
+       "rmse": 0.0039094102706112265,
+       "detect": 1.0
+      },
+      "article_size_law": {
+       "coverage": 0.954,
+       "width": 0.008373688810213348,
+       "undefined": 0.0,
+       "bias": 2.5268422583802318e-05,
+       "rmse": 0.0021090915276985307,
+       "detect": 1.0
+      },
+      "placebo_depth": {
+       "coverage": 0.956,
+       "width": 0.004004225537772374,
+       "undefined": 0.0,
+       "bias": -2.9545620713857662e-05,
+       "rmse": 0.0010190179404229965
+      },
+      "placebo_size": {
+       "coverage": 0.958,
+       "width": 0.00913097706880489,
+       "undefined": 0.0,
+       "bias": 3.0852435887074314e-05,
+       "rmse": 0.002156244112052639
+      },
+      "_labels": 2000.0
+     }
+    }
+   },
+   "edge": {},
+   "truth_item": {
+    "depth_law": -0.0012008294801654235,
+    "size_law": 0.0015201003654658814,
+    "article_size_law": 0.0031956444183837674,
+    "placebo_depth": 0.021314500669533467,
+    "placebo_size": 0.03687199638487235
+   },
+   "labeler_item": {
+    "depth_law": 0.020310477639049442,
+    "size_law": 0.03648240106501791,
+    "article_size_law": 0.02222239089913442,
+    "placebo_depth": null,
+    "placebo_size": null
+   }
+  }
+ ]
+}

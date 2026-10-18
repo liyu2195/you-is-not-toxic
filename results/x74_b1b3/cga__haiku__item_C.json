@@ -1,0 +1,576 @@
+{
+ "pop": "cga",
+ "args": {
+  "pop": "cga",
+  "out": "/opt/x74_www-c2/out/cga__haiku__item_C.json",
+  "labelers": "haiku",
+  "reps": 500,
+  "seed": 7400,
+  "item_budgets": "250,500,1000,2000",
+  "edge_budgets": "500,1000,2000,4000,8000,16000",
+  "item_designs": "ai,dsl,calag,calag_s",
+  "edge_designs": "srs,ppi,flagprop,upgrade,upgrade_lw",
+  "procs": 1,
+  "regimes": "item",
+  "edge_fill": false,
+  "pops_dir": "x14_pops",
+  "aux": "detoxify_original@m,imsypp@m,detoxify_unbiased@m",
+  "score_onesided": false
+ },
+ "results": [
+  {
+   "labeler": "haiku",
+   "item": {
+    "250": {
+     "ai": {
+      "depth_law": {
+       "coverage": 0.926,
+       "width": 0.020215534030660003,
+       "undefined": 0.0,
+       "bias": -0.0004884596739533342,
+       "rmse": 0.005019156522484958,
+       "detect": 0.158
+      },
+      "size_law": {
+       "coverage": 0.948,
+       "width": 0.07980478955401508,
+       "undefined": 0.0,
+       "bias": 0.0001934792838318225,
+       "rmse": 0.020280831676637013,
+       "detect": 0.048
+      },
+      "placebo_depth": {
+       "coverage": 0.958,
+       "width": 0.016733753097561893,
+       "undefined": 0.0,
+       "bias": 6.633013203809061e-06,
+       "rmse": 0.004149370361330844
+      },
+      "placebo_size": {
+       "coverage": 0.956,
+       "width": 0.06171414087186501,
+       "undefined": 0.0,
+       "bias": -0.00047624409532816096,
+       "rmse": 0.015243170326355278
+      },
+      "_labels": 250.0
+     },
+     "dsl": {
+      "depth_law": {
+       "coverage": 0.93,
+       "width": 0.012618707692986082,
+       "undefined": 0.0,
+       "bias": -0.0002876400797760595,
+       "rmse": 0.0033566862883684647,
+       "detect": 0.562
+      },
+      "size_law": {
+       "coverage": 0.946,
+       "width": 0.051898182812148426,
+       "undefined": 0.0,
+       "bias": -0.000764594014620968,
+       "rmse": 0.013560985503484413,
+       "detect": 0.164
+      },
+      "placebo_depth": {
+       "coverage": 0.942,
+       "width": 0.01154087786666989,
+       "undefined": 0.0,
+       "bias": 0.00016009047879043492,
+       "rmse": 0.003205092448836388
+      },
+      "placebo_size": {
+       "coverage": 0.906,
+       "width": 0.04234759125990415,
+       "undefined": 0.0,
+       "bias": 0.0004995353725642934,
+       "rmse": 0.011313372454480558
+      },
+      "_labels": 250.0
+     },
+     "calag": {
+      "depth_law": {
+       "coverage": 0.0,
+       "width": 0.008900914187808648,
+       "undefined": 0.0,
+       "bias": -0.0203714247277998,
+       "rmse": 0.020488975650480135,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.0,
+       "width": 0.0047109145000751845,
+       "undefined": 0.0,
+       "bias": 0.016096986369143435,
+       "rmse": 0.016138724464310614,
+       "detect": 1.0
+      },
+      "placebo_depth": {
+       "coverage": 0.0,
+       "width": 0.009253504835155045,
+       "undefined": 0.0,
+       "bias": 0.015448612847867738,
+       "rmse": 0.015614053323831142
+      },
+      "placebo_size": {
+       "coverage": 0.0,
+       "width": 0.0049009224378093845,
+       "undefined": 0.0,
+       "bias": -0.011238846413429393,
+       "rmse": 0.01130282918614045
+      },
+      "_labels": 250.0
+     },
+     "calag_s": {
+      "depth_law": {
+       "coverage": 0.704,
+       "width": 0.0170633994887587,
+       "undefined": 0.0,
+       "bias": -0.004676567785275511,
+       "rmse": 0.006795743238783512,
+       "detect": 0.08
+      },
+      "size_law": {
+       "coverage": 0.578,
+       "width": 0.06371564224325409,
+       "undefined": 0.0,
+       "bias": 0.02760421651798336,
+       "rmse": 0.032313008603048664,
+       "detect": 0.218
+      },
+      "placebo_depth": {
+       "coverage": 0.554,
+       "width": 0.014175744233317557,
+       "undefined": 0.0,
+       "bias": 0.0062065361058440795,
+       "rmse": 0.007565161997436863
+      },
+      "placebo_size": {
+       "coverage": 0.914,
+       "width": 0.04259760737227697,
+       "undefined": 0.0,
+       "bias": -0.007296063317117846,
+       "rmse": 0.014329542734338806
+      },
+      "_labels": 250.0
+     }
+    },
+    "500": {
+     "ai": {
+      "depth_law": {
+       "coverage": 0.942,
+       "width": 0.01323397064429828,
+       "undefined": 0.0,
+       "bias": -0.00011671336145048505,
+       "rmse": 0.0031994095619898594,
+       "detect": 0.508
+      },
+      "size_law": {
+       "coverage": 0.934,
+       "width": 0.05277147301020506,
+       "undefined": 0.0,
+       "bias": 0.0006723680934187341,
+       "rmse": 0.013899078824781776,
+       "detect": 0.078
+      },
+      "placebo_depth": {
+       "coverage": 0.954,
+       "width": 0.009971318817230033,
+       "undefined": 0.0,
+       "bias": 2.5322041068692974e-05,
+       "rmse": 0.0024609247643252613
+      },
+      "placebo_size": {
+       "coverage": 0.946,
+       "width": 0.03784109090453858,
+       "undefined": 0.0,
+       "bias": -0.0011577522042970413,
+       "rmse": 0.009592668702595229
+      },
+      "_labels": 500.0
+     },
+     "dsl": {
+      "depth_law": {
+       "coverage": 0.91,
+       "width": 0.00812219024509654,
+       "undefined": 0.0,
+       "bias": -8.432309261986043e-05,
+       "rmse": 0.0022334069296397513,
+       "detect": 0.858
+      },
+      "size_law": {
+       "coverage": 0.936,
+       "width": 0.032884514372852655,
+       "undefined": 0.0,
+       "bias": -0.0003638174993677301,
+       "rmse": 0.008904839199967055,
+       "detect": 0.254
+      },
+      "placebo_depth": {
+       "coverage": 0.92,
+       "width": 0.0075656506312123855,
+       "undefined": 0.0,
+       "bias": 4.103294292478771e-05,
+       "rmse": 0.0021144185316169417
+      },
+      "placebo_size": {
+       "coverage": 0.906,
+       "width": 0.02683891021105559,
+       "undefined": 0.0,
+       "bias": 0.0003489342862238974,
+       "rmse": 0.00728757110161744
+      },
+      "_labels": 500.0
+     },
+     "calag": {
+      "depth_law": {
+       "coverage": 0.0,
+       "width": 0.006414230702609101,
+       "undefined": 0.0,
+       "bias": -0.02033950224871917,
+       "rmse": 0.02040004196308528,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.0,
+       "width": 0.003394807745156778,
+       "undefined": 0.0,
+       "bias": 0.016080091018125978,
+       "rmse": 0.016101558912175795,
+       "detect": 1.0
+      },
+      "placebo_depth": {
+       "coverage": 0.0,
+       "width": 0.006652185717362702,
+       "undefined": 0.0,
+       "bias": 0.015457346789529983,
+       "rmse": 0.015543410248594097
+      },
+      "placebo_size": {
+       "coverage": 0.0,
+       "width": 0.003524611383018787,
+       "undefined": 0.0,
+       "bias": -0.011241127820866755,
+       "rmse": 0.011274404824985452
+      },
+      "_labels": 500.0
+     },
+     "calag_s": {
+      "depth_law": {
+       "coverage": 0.816,
+       "width": 0.013797003140160852,
+       "undefined": 0.0,
+       "bias": -0.0029761630815218626,
+       "rmse": 0.004824026533297304,
+       "detect": 0.164
+      },
+      "size_law": {
+       "coverage": 0.432,
+       "width": 0.0479782914009743,
+       "undefined": 0.0,
+       "bias": 0.02550303716378097,
+       "rmse": 0.028398055004875692,
+       "detect": 0.304
+      },
+      "placebo_depth": {
+       "coverage": 0.752,
+       "width": 0.012193714401781446,
+       "undefined": 0.0,
+       "bias": 0.0038019607160347533,
+       "rmse": 0.005083551347808205
+      },
+      "placebo_size": {
+       "coverage": 0.828,
+       "width": 0.034077860166988855,
+       "undefined": 0.0,
+       "bias": -0.009479236658933477,
+       "rmse": 0.013328796793360565
+      },
+      "_labels": 500.0
+     }
+    },
+    "1000": {
+     "ai": {
+      "depth_law": {
+       "coverage": 0.93,
+       "width": 0.0080812852898626,
+       "undefined": 0.0,
+       "bias": 6.156366099102639e-06,
+       "rmse": 0.002013721684470015,
+       "detect": 0.974
+      },
+      "size_law": {
+       "coverage": 0.942,
+       "width": 0.03305591238615156,
+       "undefined": 0.0,
+       "bias": 0.00017418471041367664,
+       "rmse": 0.008268615167150493,
+       "detect": 0.14
+      },
+      "placebo_depth": {
+       "coverage": 0.952,
+       "width": 0.004415822280582546,
+       "undefined": 0.0,
+       "bias": -2.8701294719763034e-05,
+       "rmse": 0.0010648308571463202
+      },
+      "placebo_size": {
+       "coverage": 0.94,
+       "width": 0.019221752434579513,
+       "undefined": 0.0,
+       "bias": -0.00032891594528831935,
+       "rmse": 0.005070493797529488
+      },
+      "_labels": 1000.0
+     },
+     "dsl": {
+      "depth_law": {
+       "coverage": 0.942,
+       "width": 0.005119578272992273,
+       "undefined": 0.0,
+       "bias": -8.416154357474698e-05,
+       "rmse": 0.00132063001717831,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.934,
+       "width": 0.020785864785911146,
+       "undefined": 0.0,
+       "bias": -6.687069623153089e-05,
+       "rmse": 0.0054268564638902325,
+       "detect": 0.4
+      },
+      "placebo_depth": {
+       "coverage": 0.924,
+       "width": 0.004914786087195656,
+       "undefined": 0.0,
+       "bias": 8.185757710912835e-05,
+       "rmse": 0.0012604028617115262
+      },
+      "placebo_size": {
+       "coverage": 0.928,
+       "width": 0.017093364302330043,
+       "undefined": 0.0,
+       "bias": 0.0002326478179589149,
+       "rmse": 0.00449368189990931
+      },
+      "_labels": 1000.0
+     },
+     "calag": {
+      "depth_law": {
+       "coverage": 0.0,
+       "width": 0.004534767248983528,
+       "undefined": 0.0,
+       "bias": -0.02026670936143314,
+       "rmse": 0.02029294685490174,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.0,
+       "width": 0.002400079400491555,
+       "undefined": 0.0,
+       "bias": 0.016041564518377474,
+       "rmse": 0.01605085322803473,
+       "detect": 1.0
+      },
+      "placebo_depth": {
+       "coverage": 0.0,
+       "width": 0.004705440195374842,
+       "undefined": 0.0,
+       "bias": 0.015422854002986954,
+       "rmse": 0.015460316321402422
+      },
+      "placebo_size": {
+       "coverage": 0.0,
+       "width": 0.0024932574023537606,
+       "undefined": 0.0,
+       "bias": -0.0112214079933358,
+       "rmse": 0.011235872094499768
+      },
+      "_labels": 1000.0
+     },
+     "calag_s": {
+      "depth_law": {
+       "coverage": 0.858,
+       "width": 0.010358176589465284,
+       "undefined": 0.0,
+       "bias": -0.0023826703055710233,
+       "rmse": 0.003434920303278074,
+       "detect": 0.352
+      },
+      "size_law": {
+       "coverage": 0.264,
+       "width": 0.03453305053714265,
+       "undefined": 0.0,
+       "bias": 0.023007828866694485,
+       "rmse": 0.0244417574094063,
+       "detect": 0.384
+      },
+      "placebo_depth": {
+       "coverage": 0.814,
+       "width": 0.009548168049079837,
+       "undefined": 0.0,
+       "bias": 0.0025249319542307927,
+       "rmse": 0.0034137458184739797
+      },
+      "placebo_size": {
+       "coverage": 0.608,
+       "width": 0.02516471977368073,
+       "undefined": 0.0,
+       "bias": -0.010451489894589152,
+       "rmse": 0.012013492424400153
+      },
+      "_labels": 1000.0
+     }
+    },
+    "2000": {
+     "ai": {
+      "depth_law": {
+       "coverage": 0.934,
+       "width": 0.0045189801391994295,
+       "undefined": 0.0,
+       "bias": 5.349284883355426e-05,
+       "rmse": 0.0011707070829170396,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.936,
+       "width": 0.017531751695960135,
+       "undefined": 0.0,
+       "bias": -0.00011112985453900354,
+       "rmse": 0.004476595190710649,
+       "detect": 0.534
+      },
+      "placebo_depth": {
+       "coverage": 0.956,
+       "width": 0.0008573688916335678,
+       "undefined": 0.0,
+       "bias": 9.687437661506839e-06,
+       "rmse": 0.000227167318166347
+      },
+      "placebo_size": {
+       "coverage": 0.946,
+       "width": 0.002554432741697486,
+       "undefined": 0.0,
+       "bias": -1.5019041807568488e-05,
+       "rmse": 0.0006668072670917738
+      },
+      "_labels": 2000.0
+     },
+     "dsl": {
+      "depth_law": {
+       "coverage": 0.934,
+       "width": 0.0029619189382272927,
+       "undefined": 0.0,
+       "bias": 2.553462390492839e-05,
+       "rmse": 0.0007742362647564286,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.942,
+       "width": 0.01221250822854508,
+       "undefined": 0.0,
+       "bias": -7.549233880681239e-05,
+       "rmse": 0.003236660791003123,
+       "detect": 0.802
+      },
+      "placebo_depth": {
+       "coverage": 0.914,
+       "width": 0.0028858795016111186,
+       "undefined": 0.0,
+       "bias": -1.885061767946134e-05,
+       "rmse": 0.0007624351709459367
+      },
+      "placebo_size": {
+       "coverage": 0.948,
+       "width": 0.01005261426574785,
+       "undefined": 0.0,
+       "bias": 2.248092630317746e-05,
+       "rmse": 0.0025535150601835007
+      },
+      "_labels": 2000.0
+     },
+     "calag": {
+      "depth_law": {
+       "coverage": 0.0,
+       "width": 0.003229187996761575,
+       "undefined": 0.0,
+       "bias": -0.0201640112120391,
+       "rmse": 0.02017498011885581,
+       "detect": 1.0
+      },
+      "size_law": {
+       "coverage": 0.0,
+       "width": 0.001709086082219387,
+       "undefined": 0.0,
+       "bias": 0.015987210303641426,
+       "rmse": 0.015991086218893363,
+       "detect": 1.0
+      },
+      "placebo_depth": {
+       "coverage": 0.0,
+       "width": 0.003358979745148284,
+       "undefined": 0.0,
+       "bias": 0.01532336289974292,
+       "rmse": 0.015338888548201902
+      },
+      "placebo_size": {
+       "coverage": 0.0,
+       "width": 0.00177930871869837,
+       "undefined": 0.0,
+       "bias": -0.011168042260315406,
+       "rmse": 0.011174027041226307
+      },
+      "_labels": 2000.0
+     },
+     "calag_s": {
+      "depth_law": {
+       "coverage": 0.874,
+       "width": 0.007522023424098192,
+       "undefined": 0.0,
+       "bias": -0.0020136587972989783,
+       "rmse": 0.0025478531723051078,
+       "detect": 0.742
+      },
+      "size_law": {
+       "coverage": 0.042,
+       "width": 0.02438178006266721,
+       "undefined": 0.0,
+       "bias": 0.021697381082607915,
+       "rmse": 0.02228243309548279,
+       "detect": 0.562
+      },
+      "placebo_depth": {
+       "coverage": 0.876,
+       "width": 0.006953192061363563,
+       "undefined": 0.0,
+       "bias": 0.001936857775144596,
+       "rmse": 0.002413896060379926
+      },
+      "placebo_size": {
+       "coverage": 0.214,
+       "width": 0.017667776503255725,
+       "undefined": 0.0,
+       "bias": -0.010685059287345278,
+       "rmse": 0.011229068737796171
+      },
+      "_labels": 2000.0
+     }
+    }
+   },
+   "edge": {},
+   "truth_item": {
+    "depth_law": 0.03737371771043927,
+    "size_law": -0.025095651770967956,
+    "placebo_depth": 0.0008374402230424611,
+    "placebo_size": 0.0028375167134311497
+   },
+   "labeler_item": {
+    "depth_law": 0.03062476043989243,
+    "size_law": -0.01620851802112893,
+    "placebo_depth": null,
+    "placebo_size": null
+   }
+  }
+ ]
+}
