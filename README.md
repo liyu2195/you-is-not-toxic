@@ -1,7 +1,7 @@
 # "You" Is Not Toxic: How LLM Labelers Rewrite the Web's Conversation Laws
 
 The labels, prompts and code of the paper by Liang Yue and Eric A. Vance (University of Colorado Boulder), with scripts that
-rebuild every gold-labeled population.
+rebuild every gold-labeled population. Paper: [arXiv:2610.23446](https://arxiv.org/abs/2610.23446).
 
 ## What the paper finds
 
@@ -179,13 +179,17 @@ cloud bucket with `gcloud storage cp`.
 
 ## How to cite
 
-The arXiv identifier will be added here when the preprint is announced.
+Paper: https://arxiv.org/abs/2610.23446
 
 ```bibtex
 @misc{yue2026you,
-  title        = {``{Y}ou'' Is Not Toxic: How {LLM} Labelers Rewrite the Web's Conversation Laws},
-  author       = {Yue, Liang and Vance, Eric A.},
-  year         = {2026},
-  howpublished = {arXiv:XXXX.XXXXX}
+  title         = {``{Y}ou'' Is Not Toxic: How {LLM} Labelers Rewrite the Web's Conversation Laws},
+  author        = {Yue, Liang and Vance, Eric A.},
+  year          = {2026},
+  eprint        = {2610.23446},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SI},
+  doi           = {10.48550/arXiv.2610.23446},
+  url           = {https://arxiv.org/abs/2610.23446}
 }
 ```
